@@ -1,0 +1,22 @@
+@media (max-width: 1200px){
+    .navbars ul li{
+        padding: 5px .8rem; 
+    }
+    .navbars ul li :hover{
+        background-color: transparent;
+        color: black !important;
+    }  
+}
+
+@media (max-width: 500px){
+    td{
+        font-size: 14px;
+    }
+    .paginationss{
+        display: flex;
+        justify-content: center;
+    }
+    .footer h5{
+        font-size: 15px;
+    }
+}

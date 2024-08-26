@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+:root{
+    --my-font: "Roboto", sans-serif;
+    --font-weight : 400;
+    --colors : rgb(1, 1, 14);
+}
+
+/* navbar start */
+
+.navbar-img{
+    height: auto;
+    width: 100px;
+}
+.navbars ul{
+    margin-left: 40%;
+}
+.navbars ul li{
+    padding: 5px 1rem; 
+    transition: .2s;
+}
+.navbars ul li :hover{
+    background-color: rgb(119, 122, 122);
+    border-radius: 5px;
+    color: white !important;
+}
+.navbars ul li a{
+    font-family: var(--my-font);
+    font-weight: var(--font-weight);
+}
+
+.our h2{
+ color: rgb(136, 133, 133);
+ text-shadow: 2px 2px 2px  rgb(41, 40, 40);
+}
+.card-img-top{
+    height: 300px;
+    width: 20%;
+}
+
+.card-title{
+    text-transform: capitalize;
+    font-weight: var(--font-weight);
+    font-family: var(--my-font);
+    cursor: pointer;
+}
+.card-text{
+    text-transform: capitalize;
+    font-weight: 400px;
+    cursor: pointer;
+    
+}
+
+/* table sections */
+.ours h2{
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: gray;
+}
+.table th,tr,td{
+    cursor: pointer;
+    font-weight: var(--font-weight);
+    font-family: var(--my-font);
+}
+.table th{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* progress bar */
+.html{
+    width: 100%;
+    font-weight: 700; 
+    font-family: var(--my-font);  
+}
+.css{
+ width: 90%;
+ font-weight: 700; 
+ font-family: var(--my-font); 
+}
+.boots{
+    width: 95%; 
+    font-weight: 700;
+    font-family: var(--my-font);  
+}
+.js{
+    width: 75%; 
+    font-weight: 700;
+    font-family: var(--my-font);
+}
+.react{
+    width: 65%; 
+    font-weight: 700;
+    font-family: var(--my-font);
+}
+.es6{
+    width: 85%; 
+    font-weight: 700;
+    font-family: var(--my-font);  
+}
+.dom{
+    width: 77%; 
+    font-weight: 700;
+    font-family: var(--my-font); 
+}
+.parent-div{
+    margin-top: 4rem !important;
+    display: inline-block;
+}
+
+/* from control */
+
+.mb-1{
+    font-weight: 600;
+}
+
+
+/* list group */
+.groups h6{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px !important;
+}
+.groups h4,a{
+    border-radius: 5px;
+}
+
+.page{
+    margin-top: 5rem !important;
+    margin-left: 0px;
+}
+/* footer */
+.footer h5{
+    cursor: pointer;
+    font-weight: var(--font-weight);
+    font-family: monospace;
+    color: rgb(94, 92, 92);
+    text-transform: capitalize;
+}
